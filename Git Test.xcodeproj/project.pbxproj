@@ -21,6 +21,7 @@
 		8C438C0E1A260144007E124D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C438BF01A260144007E124D /* UIKit.framework */; };
 		8C438C161A260144007E124D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C438C141A260144007E124D /* InfoPlist.strings */; };
 		8C438C181A260144007E124D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C438C171A260144007E124D /* Git_TestTests.m */; };
+		8C438C231A2607BD007E124D /* DKTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C438C221A2607BD007E124D /* DKTest1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8C438C131A260144007E124D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8C438C151A260144007E124D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C438C171A260144007E124D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8C438C211A2607BD007E124D /* DKTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKTest1.h; path = ../DKTest1.h; sourceTree = "<group>"; };
+		8C438C221A2607BD007E124D /* DKTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKTest1.m; path = ../DKTest1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8C438BFE1A260144007E124D /* Main.storyboard */,
 				8C438C011A260144007E124D /* DKViewController.h */,
 				8C438C021A260144007E124D /* DKViewController.m */,
+				8C438C211A2607BD007E124D /* DKTest1.h */,
+				8C438C221A2607BD007E124D /* DKTest1.m */,
 				8C438C041A260144007E124D /* Images.xcassets */,
 				8C438BF31A260144007E124D /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C438C231A2607BD007E124D /* DKTest1.m in Sources */,
 				8C438BF91A260144007E124D /* main.m in Sources */,
 				8C438C031A260144007E124D /* DKViewController.m in Sources */,
 				8C438BFD1A260144007E124D /* DKAppDelegate.m in Sources */,
